@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 
-from app.models.schema import ExportResponse, GenerateRequest, GenerateResponse
-from app.services.export_service import export_service
-from app.services.generate_service import generate_from_user_story
+from ..models.schema import ExportResponse, GenerateRequest, GenerateResponse
+from ..services.export_service import export_service
+from ..services.generate_service import generate_from_user_story
 
 router = APIRouter(tags=["generate"])
 
