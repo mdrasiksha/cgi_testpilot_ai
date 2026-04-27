@@ -1,4 +1,4 @@
-from app.utils.parser import normalize_prompt
+from ..utils.parser import normalize_prompt
 
 
 class AIService:
