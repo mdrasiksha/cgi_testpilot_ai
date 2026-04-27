@@ -2,11 +2,11 @@ from pydantic import BaseModel, Field
 
 
 class GenerateRequest(BaseModel):
-    prompt: str = Field(..., min_length=1, max_length=4000)
+    prompt: str = Field(..., min_length=1)
 
 
 class UserStoryGenerateRequest(BaseModel):
-    user_story: str = Field(..., min_length=1, max_length=4000)
+    user_story: str = Field(..., min_length=1)
 
 
 class GenerateResponse(BaseModel):
