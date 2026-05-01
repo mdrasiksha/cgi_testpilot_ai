@@ -1,0 +1,17 @@
+# created by virtualenv automatically
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Node (if any future use)
+node_modules/
+
+# IDE
+.idea/
+
+# Logs
+*.log
